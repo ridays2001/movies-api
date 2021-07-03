@@ -1,0 +1,15 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"extends": "tulip/typescript",
+	"rules": {
+		"capitalized-comments": [
+			"error",
+			"always",
+			{
+				"ignorePattern": "prettier.*|cSpell.*"
+			}
+		]
+	}
+}
